@@ -1,1 +1,6 @@
-return { "roobert/tailwindcss-colorizer-cmp.nvim", config = true }
+return {
+  {
+    "roobert/tailwindcss-colorizer-cmp.nvim",
+    config = true,
+  },
+}
