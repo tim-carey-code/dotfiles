@@ -2,12 +2,6 @@
 require("config.lazy")
 require("mason").setup({})
 require("mason-lspconfig").setup()
-require("lspconfig").ruby_ls.setup({
-  init_options = {
-    formatter = "rubocop",
-  },
-})
-
 require("nvim-treesitter.configs").setup({
   rainbow = {
     enable = true,

@@ -1,3 +1,5 @@
 return {
-  "kdheepak/lazygit.nvim",
+  {
+    "kdheepak/lazygit.nvim",
+  },
 }
