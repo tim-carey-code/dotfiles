@@ -17,3 +17,5 @@ require("nvim-treesitter.configs").setup({
 require("lspconfig").yamlls.setup({
   filetypes = { "yaml", "yml", "yaml.docker-compose" },
 })
+require("flutter-tools").setup({})
+require("telescope").load_extension("flutter")

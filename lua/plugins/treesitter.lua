@@ -7,6 +7,7 @@ return {
         "bash",
         "embedded_template",
         "html",
+        --       "dart",
         "javascript",
         "json",
         "json5",
